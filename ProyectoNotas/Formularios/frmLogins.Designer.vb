@@ -31,6 +31,7 @@ Partial Class frmLogins
         Me.PictureAlumno.EditValue = CType(resources.GetObject("PictureAlumno.EditValue"), Object)
         Me.PictureAlumno.Location = New System.Drawing.Point(247, 32)
         Me.PictureAlumno.Name = "PictureAlumno"
+        Me.PictureAlumno.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureAlumno.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureAlumno.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
         Me.PictureAlumno.Size = New System.Drawing.Size(197, 179)
@@ -41,6 +42,7 @@ Partial Class frmLogins
         Me.PictureEmpleado.EditValue = CType(resources.GetObject("PictureEmpleado.EditValue"), Object)
         Me.PictureEmpleado.Location = New System.Drawing.Point(23, 32)
         Me.PictureEmpleado.Name = "PictureEmpleado"
+        Me.PictureEmpleado.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEmpleado.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEmpleado.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
         Me.PictureEmpleado.Size = New System.Drawing.Size(197, 179)
