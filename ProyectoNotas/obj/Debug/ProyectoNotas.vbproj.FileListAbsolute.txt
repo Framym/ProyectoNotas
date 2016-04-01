@@ -96,3 +96,5 @@ C:\Users\framy\Documents\GitHub\ProyectoNotas\ProyectoNotas\obj\Debug\ProyectoNo
 C:\Users\framy\Documents\GitHub\ProyectoNotas\ProyectoNotas\obj\Debug\ProyectoNotas.Resources.resources
 C:\Users\framy\Documents\GitHub\ProyectoNotas\ProyectoNotas\obj\Debug\ProyectoNotas.vbproj.GenerateResource.Cache
 C:\Users\framy\Documents\GitHub\ProyectoNotas\ProyectoNotas\obj\Debug\ProyectoNotas.exe.licenses
+C:\Users\DanielGuillen\Documents\GitHub\ProyectoNotas\ProyectoNotas\obj\Debug\ProyectoNotas.exe
+C:\Users\DanielGuillen\Documents\GitHub\ProyectoNotas\ProyectoNotas\obj\Debug\ProyectoNotas.pdb
