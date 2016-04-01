@@ -103,16 +103,16 @@
     <Compile Include="Formularios\LoginAlumno.Designer.vb">
       <DependentUpon>LoginAlumno.vb</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\LoginAlumno.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Formularios\LoginAlumno.vb" />
     <Compile Include="Formularios\LoginEmpleado.Designer.vb">
       <DependentUpon>LoginEmpleado.vb</DependentUpon>
     </Compile>
     <Compile Include="Formularios\LoginEmpleado.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modulos\Bitacora.vb" />
     <Compile Include="Modulos\Conexion.vb" />
+    <Compile Include="Modulos\Funciones.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
