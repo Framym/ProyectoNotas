@@ -25,6 +25,7 @@ Partial Class LoginAlumno
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.btnIngresar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -80,12 +81,24 @@ Partial Class LoginAlumno
         '
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
-        Me.LinkLabel1.Location = New System.Drawing.Point(200, 207)
+        Me.LinkLabel1.Location = New System.Drawing.Point(200, 233)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(49, 13)
         Me.LinkLabel1.TabIndex = 5
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Cancelar"
+        '
+        'btnIngresar
+        '
+        Me.btnIngresar.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(228, Byte), Integer))
+        Me.btnIngresar.FlatAppearance.BorderSize = 0
+        Me.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnIngresar.Location = New System.Drawing.Point(89, 189)
+        Me.btnIngresar.Name = "btnIngresar"
+        Me.btnIngresar.Size = New System.Drawing.Size(75, 23)
+        Me.btnIngresar.TabIndex = 6
+        Me.btnIngresar.Text = "Ingresar"
+        Me.btnIngresar.UseVisualStyleBackColor = False
         '
         'LoginAlumno
         '
@@ -93,7 +106,8 @@ Partial Class LoginAlumno
         Me.Appearance.Options.UseBackColor = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(252, 223)
+        Me.ClientSize = New System.Drawing.Size(252, 249)
+        Me.Controls.Add(Me.btnIngresar)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
@@ -115,4 +129,5 @@ Partial Class LoginAlumno
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents btnIngresar As Button
 End Class
