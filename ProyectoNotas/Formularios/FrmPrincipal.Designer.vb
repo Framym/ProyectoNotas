@@ -38,7 +38,7 @@
         Me.ribbonControl1.Name = "ribbonControl1"
         Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.ribbonPage1})
         Me.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2010
-        Me.ribbonControl1.Size = New System.Drawing.Size(758, 143)
+        Me.ribbonControl1.Size = New System.Drawing.Size(790, 143)
         '
         'ribbonPage1
         '
@@ -64,7 +64,7 @@
         Me.AllowFormGlass = DevExpress.Utils.DefaultBoolean.[False]
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(758, 360)
+        Me.ClientSize = New System.Drawing.Size(790, 464)
         Me.Controls.Add(Me.lblUsuario)
         Me.Controls.Add(Me.ribbonControl1)
         Me.Name = "FrmPrincipal"
