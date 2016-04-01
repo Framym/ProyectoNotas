@@ -24,6 +24,6 @@
 
     Private Sub LinkLabel1_MouseLeave(sender As Object, e As EventArgs) Handles LinkLabel1.MouseLeave
         LinkLabel1.BackColor = Color.DimGray
-        LinkLabel1.LinkColor = Color.DodgerBlue
+        LinkLabel1.LinkColor = Color.LightGray
     End Sub
 End Class

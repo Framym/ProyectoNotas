@@ -33,27 +33,27 @@ Partial Class frmLogins
         'PictureAlumno
         '
         Me.PictureAlumno.EditValue = CType(resources.GetObject("PictureAlumno.EditValue"), Object)
-        Me.PictureAlumno.Location = New System.Drawing.Point(268, 85)
+        Me.PictureAlumno.Location = New System.Drawing.Point(243, 85)
         Me.PictureAlumno.Name = "PictureAlumno"
         Me.PictureAlumno.Properties.Appearance.BackColor = System.Drawing.Color.DarkGray
         Me.PictureAlumno.Properties.Appearance.Options.UseBackColor = True
         Me.PictureAlumno.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureAlumno.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureAlumno.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
-        Me.PictureAlumno.Size = New System.Drawing.Size(143, 128)
+        Me.PictureAlumno.Size = New System.Drawing.Size(210, 191)
         Me.PictureAlumno.TabIndex = 1
         '
         'PictureEmpleado
         '
         Me.PictureEmpleado.EditValue = CType(resources.GetObject("PictureEmpleado.EditValue"), Object)
-        Me.PictureEmpleado.Location = New System.Drawing.Point(52, 85)
+        Me.PictureEmpleado.Location = New System.Drawing.Point(12, 85)
         Me.PictureEmpleado.Name = "PictureEmpleado"
         Me.PictureEmpleado.Properties.Appearance.BackColor = System.Drawing.Color.DarkGray
         Me.PictureEmpleado.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEmpleado.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.PictureEmpleado.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
         Me.PictureEmpleado.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEmpleado.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
-        Me.PictureEmpleado.Size = New System.Drawing.Size(143, 128)
+        Me.PictureEmpleado.Size = New System.Drawing.Size(210, 191)
         Me.PictureEmpleado.TabIndex = 2
         '
         'Label1
@@ -87,7 +87,7 @@ Partial Class frmLogins
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 14.0!)
-        Me.Label2.Location = New System.Drawing.Point(69, 239)
+        Me.Label2.Location = New System.Drawing.Point(66, 279)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(101, 23)
         Me.Label2.TabIndex = 5
@@ -97,7 +97,7 @@ Partial Class frmLogins
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 14.0!)
-        Me.Label3.Location = New System.Drawing.Point(303, 239)
+        Me.Label3.Location = New System.Drawing.Point(307, 279)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(81, 23)
         Me.Label3.TabIndex = 6
@@ -109,7 +109,7 @@ Partial Class frmLogins
         Me.Appearance.Options.UseBackColor = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(465, 297)
+        Me.ClientSize = New System.Drawing.Size(465, 350)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.LinkLabel1)
