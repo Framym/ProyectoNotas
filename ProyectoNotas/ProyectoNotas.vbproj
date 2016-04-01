@@ -103,7 +103,9 @@
     <Compile Include="Formularios\LoginAlumno.Designer.vb">
       <DependentUpon>LoginAlumno.vb</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\LoginAlumno.vb" />
+    <Compile Include="Formularios\LoginAlumno.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\LoginEmpleado.Designer.vb">
       <DependentUpon>LoginEmpleado.vb</DependentUpon>
     </Compile>

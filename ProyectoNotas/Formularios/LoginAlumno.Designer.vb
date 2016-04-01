@@ -31,10 +31,9 @@ Partial Class LoginAlumno
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.LightGray
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label1.ForeColor = System.Drawing.Color.DimGray
-        Me.Label1.Location = New System.Drawing.Point(17, 72)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(228, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(12, 59)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(63, 19)
         Me.Label1.TabIndex = 0
@@ -43,10 +42,9 @@ Partial Class LoginAlumno
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.LightGray
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label2.ForeColor = System.Drawing.Color.DimGray
-        Me.Label2.Location = New System.Drawing.Point(17, 138)
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(228, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(12, 125)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(88, 19)
         Me.Label2.TabIndex = 1
@@ -54,73 +52,51 @@ Partial Class LoginAlumno
         '
         'Label3
         '
-        Me.Label3.BackColor = System.Drawing.Color.DimGray
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 16.0!)
-        Me.Label3.ForeColor = System.Drawing.Color.LightGray
-        Me.Label3.Location = New System.Drawing.Point(0, 0)
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(228, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(-2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(280, 34)
+        Me.Label3.Size = New System.Drawing.Size(252, 29)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "UA - Ingrese su Usuario"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'txtUsername
         '
-<<<<<<< HEAD
-        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox1.Location = New System.Drawing.Point(21, 94)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(236, 27)
-        Me.TextBox1.TabIndex = 0
-=======
         Me.txtUsername.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.txtUsername.Location = New System.Drawing.Point(16, 81)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(222, 27)
         Me.txtUsername.TabIndex = 3
->>>>>>> origin/master
         '
         'txtPassword
         '
-<<<<<<< HEAD
-        Me.TextBox2.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox2.Location = New System.Drawing.Point(21, 160)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(236, 27)
-        Me.TextBox2.TabIndex = 1
-=======
         Me.txtPassword.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.txtPassword.Location = New System.Drawing.Point(16, 147)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(222, 27)
         Me.txtPassword.TabIndex = 4
->>>>>>> origin/master
         '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.BackColor = System.Drawing.Color.LightGray
-        Me.LinkLabel1.ForeColor = System.Drawing.Color.DimGray
         Me.LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.DimGray
-        Me.LinkLabel1.Location = New System.Drawing.Point(189, 260)
+        Me.LinkLabel1.Location = New System.Drawing.Point(200, 233)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(49, 13)
-        Me.LinkLabel1.TabIndex = 3
+        Me.LinkLabel1.TabIndex = 5
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Cancelar"
         '
         'btnIngresar
         '
-        Me.btnIngresar.BackColor = System.Drawing.Color.DimGray
+        Me.btnIngresar.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(228, Byte), Integer))
         Me.btnIngresar.FlatAppearance.BorderSize = 0
         Me.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnIngresar.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.btnIngresar.ForeColor = System.Drawing.Color.LightGray
-        Me.btnIngresar.Location = New System.Drawing.Point(96, 212)
+        Me.btnIngresar.Location = New System.Drawing.Point(89, 189)
         Me.btnIngresar.Name = "btnIngresar"
-        Me.btnIngresar.Size = New System.Drawing.Size(90, 31)
-        Me.btnIngresar.TabIndex = 2
+        Me.btnIngresar.Size = New System.Drawing.Size(75, 23)
+        Me.btnIngresar.TabIndex = 6
         Me.btnIngresar.Text = "Ingresar"
         Me.btnIngresar.UseVisualStyleBackColor = False
         '
@@ -130,7 +106,7 @@ Partial Class LoginAlumno
         Me.Appearance.Options.UseBackColor = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(280, 317)
+        Me.ClientSize = New System.Drawing.Size(252, 249)
         Me.Controls.Add(Me.btnIngresar)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.txtPassword)
