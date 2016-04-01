@@ -22,8 +22,8 @@ Partial Class LoginAlumno
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtUsername = New System.Windows.Forms.TextBox()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.btnIngresar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -61,21 +61,21 @@ Partial Class LoginAlumno
         Me.Label3.Text = "UA - Ingrese su Usuario"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'TextBox1
+        'txtUsername
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox1.Location = New System.Drawing.Point(16, 81)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(222, 27)
-        Me.TextBox1.TabIndex = 3
+        Me.txtUsername.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.txtUsername.Location = New System.Drawing.Point(16, 81)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(222, 27)
+        Me.txtUsername.TabIndex = 3
         '
-        'TextBox2
+        'txtPassword
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TextBox2.Location = New System.Drawing.Point(16, 147)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(222, 27)
-        Me.TextBox2.TabIndex = 4
+        Me.txtPassword.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.txtPassword.Location = New System.Drawing.Point(16, 147)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(222, 27)
+        Me.txtPassword.TabIndex = 4
         '
         'LinkLabel1
         '
@@ -109,8 +109,8 @@ Partial Class LoginAlumno
         Me.ClientSize = New System.Drawing.Size(252, 249)
         Me.Controls.Add(Me.btnIngresar)
         Me.Controls.Add(Me.LinkLabel1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtPassword)
+        Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -126,8 +126,8 @@ Partial Class LoginAlumno
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtUsername As TextBox
+    Friend WithEvents txtPassword As TextBox
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents btnIngresar As Button
 End Class
